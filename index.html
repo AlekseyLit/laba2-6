@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+    <title>Литюк А.А. Макет. Вариант1</title>
+</head>
+<body>
+    <header>
+        <nav class="nav flex justify_center ">
+
+            <div class="nav__row  flex  border-right">
+                <ul class="nav__ul  flex  justify_center  align_items_center">
+                    <li class="nav__li"><a href="index.html">Каталог</a></li>
+                    <li class="nav__li"><a href="index.html">О компании</a></li>
+                    <li class="nav__li"><a href="index.html">Способы оплаты</a></li>
+                    <li class="nav__li"><a href="index.html">Доставка</a></li>
+                    <li class="nav__li"><a href="index.html">Отзывы</a></li>
+                    <li class="nav__li"><a href="index.html">Дисконтные карты</a></li>
+                    <li class="nav__li"><a href="index.html">Видео</a></li>
+                    <li class="nav__li margin-right-60"><a href="index.html">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__row flex align_items_center">
+                <div class="nav__row__box flex ">
+                    <img class="nav__svg" src="media/user.svg" alt="svg">
+                    <p><a href="index.html">Войти</a></p>
+                </div>
+                <div  class="nav__row__box flex ">
+                    <img class="nav__svg" src="media/log-in.svg" alt="svg">
+                    <p><a href="index.html">Регистрация</a></p>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="contacts  flex  justify_center  align_items_center">
+
+            <div class="contacts__logo">
+                <img src="media/logo.png" alt="logo" width="206" >
+            </div>
+
+            <div class="contacts__phones">
+                <p>+7 965 151 18 39</p>
+                <p>+7 916 122 18 98</p>
+            </div>
+
+            <div class="contacts__information ">
+                <div class="contacts_wrap  flex  align_items_center">
+                    <img src="media/clock.svg" class="contacts_img" alt="clock">
+                    <p>Ждем вас с 8:00 до 22:00</p>
+                </div>
+                <div class="contacts_wrap  flex  align_items_center">
+                    <img src="media/map.svg" class="contacts_img" alt="map" > 
+                    <p>Адреса цветочных центров</p>
+                </div> 
+            </div>
+
+            <div class="contacts__customer-block flex">
+                <div class="contacts_wrap  flex   align_items_center favorites">
+                    <img src="media/heart.svg"  width="28" height="28" alt="heart">
+                    <p class="contacts__p"><a href="index.html">Избранное</a></p>
+                </div>
+                <div class="contacts_wrap flex  align_items_center  margin-left-25">
+                    <img src="media/basket.svg" width="32" height="28" alt="map" > 
+                    <p class="contacts__p  font-size-16">0 ₽</p>
+                </div> 
+                <div class="contacts_wrap flex  align_items_center  margin-left-25">
+                    <img class="contacts__burger" src="media/burger.svg" width="32" height="28" alt="map" > 
+                </div> 
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul class="menu__ul flex justify_center ">
+                <li class="menu__li flex align_items_center"><a href="index.html">БУКЕТЫ</a></li>
+                <li class="menu__li flex align_items_center"><a href="index.html">РОЗЫ</a></li>
+                <li class="menu__li flex align_items_center"><a href="index.html">ЦВЕТЫ</a></li>
+                <li class="menu__li flex align_items_center"><a href="index.html">ГОРШЕЧНЫЕ РАСТЕНИЯ</a></li>
+                <li class="menu__li flex align_items_center"><a href="index.html">ПОВОД</a></li>
+                <li class="menu__li flex align_items_center"><a href="index.html">ПОДАРКИ</a></li>
+                <li class="menu__li flex align_items_center no_border "><a href="index.html">АКЦИИ</a></li>
+            </ul>
+        </div>
+
+    
+    </header>
+
+    <main>
+        <section class="banner flex align_items_center">
+            <picture class="banner__picture">
+                <source media="(min-width:2500px)" srcset="media/banner-2600px.png">
+                <source media="(min-width:1024px)" srcset="media/banner-1900px.png">
+                <source media="(min-width:768px)" srcset="media/banner-1000px.png">
+                <img class="banner__img" src="media/banner-320px.png" alt="banner">
+            </picture>
+            <div class="banner__block">
+                <h2 class="banner__p">Всегда в продаже <br> более 100 готовых <br>дизайнерских букетов</h2>
+                <div class="banner__box flex align_items_center">
+                    <p>Перейти в каталог</p>
+                    <img src="media/angle-right.svg" alt="svg">
+                </div>
+            </div>
+            <div class="banner__5circles flex">
+                <div class="fill"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
+
+        <section class="delivery-menu  flex  justify_center align_items_center ">
+            <h2 class="delivery-menu__heading">Доставка цветов в Москве</h2>
+
+            <div class="delivery-menu__row  flex justify_center">
+                <div class="delivery-menu__price  flex align_items_center">
+                    <p>Цена...</p>
+                    <img src="media/angle-down.svg" alt="angle-down">
+                </div>
+                <div class="delivery-menu__flowers  flex align_items_center border-left">
+                    <p>Цветы...</p>
+                    <img src="media/angle-down.svg" alt="angle-down">
+                </div>
+                <div class="delivery-menu__whom  flex align_items_center  border-left">
+                    <p>Кому...</p>
+                    <img src="media/angle-down.svg" alt="angle-down">
+                </div>
+                <div class="delivery-menu__occasion  flex align_items_center  border-left">
+                    <p>Повод...</p>
+                    <img src="media/angle-down.svg" alt="angle-down">
+                </div>
+                <div class="delivery-menu__style  flex align_items_center border-left">
+                    <p>Стиль...</p>
+                    <img src="media/angle-down.svg" alt="angle-down">
+                </div>
+               
+            </div>
+
+        </section>
+        <section class="flowers-centers flex align_items_center">
+            <h2 class="flowers-centers__p">ЦВЕТОЧНЫЕ ЦЕНТРЫ</h2>
+            <div class = "flowers-centers__row flex justify_center">
+                <div class="flowers-centers__box">
+                    <p><a href="index.html">м. Марьино</a></p>
+                    <p><a href="index.html">м. Белорусская</a></p>
+                    <p><a href="index.html">м. Щёлковская</a></p>
+                    <p><a href="index.html">м. Профсоюзная</a></p>
+                    <p><a href="index.html">м. Площадь Ильича</a></p>
+                    <p><a href="index.html">м. Каширская</a></p>
+                    <p><a href="index.html">м. Братиславская</a></p>
+                </div>
+                <div class="flowers-centers__box">
+                    <p><a href="index.html">м. Нахимовский проспект</a></p>
+                    <p><a href="index.html">м. Полянка</a></p>
+                    <p><a href="index.html">м. Кантемировская</a></p>
+                    <p><a href="index.html">м. Варшавская</a></p>
+                    <p><a href="index.html">м. Новогиреево</a></p>
+                    <p><a href="index.html">м. Дмитровская</a></p>
+                    <p><a href="index.html">м. Академическая</a></p>
+                </div>
+                <div class="flowers-centers__box"> 
+                    <p><a href="index.html">м. Текстильщики</a></p>
+                    <p><a href="index.html">м. Университет</a></p>
+                    <p><a href="index.html">м. Пролетарская</a></p>
+                    <p><a href="index.html">м. Красносельская</a></p>
+                    <p><a href="index.html">м. Черкизовская</a></p>
+                </div>
+
+            </div>
+        </section>
+        <section class= "clients flex  justify_center align_items_center ">
+            <h3>НАШИ КЛИЕНТЫ И ПАРТНЕРЫ</h3>
+            <div class="clients__sprite flex justify_center  hidden">
+                <img class="spriteimage-16" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAAxAQMAAAClJ7ZJAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFowArAAACGwABNe2O9gAAAABJRU5ErkJggg==">
+                <img class="spriteimage-10" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAyAQMAAAA0kVQuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-13" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAyAQMAAAA0kVQuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-9" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAyAQMAAAA0kVQuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-18" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAyAQMAAADbUz8QAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-14" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAxAQMAAAC1R/iVAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgwEAAAGIAAHvCeInAAAAAElFTkSuQmCC">
+                <img class="spriteimage-20" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAyAQMAAADLM3HMAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgwkAAAGQAAHO016IAAAAAElFTkSuQmCC">
+                <img class="spriteimage-11" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAxAQMAAACiZWhcAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgwEAAAGIAAHvCeInAAAAAElFTkSuQmCC">
+                <img class="spriteimage-19" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAApAQMAAABN4OiqAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgF1AAAAUgAAb0cigcAAAAASUVORK5CYII=">
+                <img class="spriteimage-12" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAApAQMAAAB0h1nxAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgFeAAAAR8AAVTkCygAAAAASUVORK5CYII=">
+                <img class="spriteimage-15" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAyAQMAAAAQiNvuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgFtAMAAV4AAaiVa44AAAAASUVORK5CYII=">
+                <img class="spriteimage-17" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAyAQMAAADhg4BjAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgFxAIAASwAAdjU1D4AAAAASUVORK5CYII=">
+             </div>
+             <div class="clients__sprite-mobile">
+                <img class="spriteimage-10" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAyAQMAAAA0kVQuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-9" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAyAQMAAAA0kVQuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIw0AAAH0AAHfD/7rAAAAAElFTkSuQmCC">
+                <img class="spriteimage-11" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAxAQMAAACiZWhcAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgwEAAAGIAAHvCeInAAAAAElFTkSuQmCC">
+             </div>
+             <div class="clients__print flex justify_center">
+                 <div>
+                    <ul class="clients__ul">
+                        <li>М.видео</li>
+                        <li>Уральские авиалинии</li>
+                        <li>ЦФТ</li>
+                        <li>Аэрофлот Бонус</li>
+                        <li>Sunlight</li>
+                        <li>2GIS</li>
+                    </ul>
+                 </div>
+                 <div>
+                    <ul class="clients__ul">
+                        <li>Билайн</li>
+                        <li>Сбербанк</li>
+                        <li>Евросеть</li>
+                        <li>CAT</li>
+                        <li>CDEK</li>
+                    </ul>
+                 </div>
+               
+             </div>
+        </section>
+        <section class="useful-articles flex align_items_center ">
+            <div class= "useful_articles__wrap">
+                <div class="useful-articles__row flex align_items_center">
+                    <h2>ПОЛЕЗНЫЕ СТАТЬИ</h2>
+                    <div>
+                        <a href="index.html">Все статьи</a>
+                        <img src="media/angle-right.svg" alt="svg">
+                    </div>
+                </div>
+                <div class="useful-articles__container flex justify_center">
+                    <div class="useful-articles__inner">
+                        <img src="media/article1-350px.jpg" alt="jpg1"
+                            srcset="media/article1-700px.jpg 2x,
+                                    media/article1-1050px.jpg 3x"
+                        >
+                        <p class="useful-articles__p1">26.12.2020</p>
+                        <p class="useful-articles__p2">Заказ цветов и букетов онлайн</p>
+                        <p class="useful-articles__p3">Заказ букетов через Интернет становится
+                            все более популярным. Наши цветочные 
+                            базы и онлайн-магазин предоставляют
+                            услуги по доставке букетов в Москве и МО.
+                            Это удобно, быстро, и обычно неожиданно
+                            для получателя. Наши цветочные композиции
+                            помогут поднять настроение, или выразить 
+                            уважение и любовь.</p>
+                    </div>
+
+                    <div class="useful-articles__inner hidden">
+                        <img src="media/article2-350px.jpg" alt="jpg2"
+                            srcset="media/article2-700px.jpg 2x,
+                                    media/article2-1050px.jpg 3x"
+                        >
+                        <p class="useful-articles__p1">28.12.2020</p>
+                        <p class="useful-articles__p2">Праздничные букеты на заказ с доставкой</p>
+                        <p class="useful-articles__p3">Лучшим подарком и его дополнением являются цветы.
+                             Они считаются незаменимым атрибутом любого праздника. На нашем официальном 
+                             сайте можно выбрать понравившийся вариант букета, и заказать его.
+                              Доставка букетов осуществляется в любое время в назначенное место.</p>
+                    </div>
+
+                    <div class="useful-articles__inner hidden">
+                        <img src="media/article3-350px.jpg" alt="jpg3"
+                        srcset="media/article3-700px.jpg 2x,
+                                media/article3-1050px.jpg 3x"
+                        >
+                        <p class="useful-articles__p1">30.12.2020</p>
+                        <p class="useful-articles__p2">Роскошные розы в букетах с доставкой</p>
+                        <p class="useful-articles__p3">Эффектный букет роз — всегда приятный подарок. 
+                            Юные девушки и взрослые женщины обрадуются такому элегантному знаку внимания.
+                             Чтобы признаться в чувствах или выразить благодарность, довольно заказать 
+                             розы с доставкой.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="useful-articles__5circles flex">
+                <div class="fill"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+        <section class = "news flex align_items_center">
+            <div class="news__wrap flex">
+                <div class = "news__row flex align_items_center">
+                    <h2>НОВОСТИ</h2>
+                    <div>
+                        <a href="index.html">Все новости</a>
+                        <img src="media/angle-right.svg" alt="svg">
+                    </div>
+                </div>
+                <div class="news__conteiner flex justify_center">
+                    <div class="news__inner ">
+                       <div class="news__inner__box  flex  align_items_center ">
+                            <p class="news__p2">Вакансия флориста</p>
+                            <p class="news__p1">26.12.2020</p>
+                       </div>
+                        <p class="news__p3">Требования:</p>
+                        <p class="news__p4">Опыт работы с горшечными растениями;</p> 
+                        <p class="news__p4">Опыт работы в розничных продажах желателен;</p>  
+                        <p class="news__p4">Хороший вкус и творческий потенциал, приветствуется;</p>
+                          
+                    </div>
+                    <div class="news__inner  hidden">
+                        <div class="news__inner__box  flex">
+                             <p class="news__p2">Цветочная компания ФлораМаркт делает уникальное предложение для корпоративных клиентов</p>
+                             <p class="news__p1">27.12.2020</p>
+                        </div>
+                         <p class="news__p4">Сделайте Ваш бизнес более привлекательным с помощью цветов!
+                             Ваша репутация может опережать Вас,
+                              вы можете быть на вершине славы, но вот как сохранить ее? Может, 
+                              стоит украсить Ваше рабочее место свежесрезанными цветами?</p> 
+                     </div>
+                </div>
+            </div>
+        </section>
+        <div class="subscription flex justify_center  align_items_center">
+            <form class="subscription__form flex">
+                    <div>
+                        <label class="subscription__label-1" for="email">Подписаться <br> на скидки и акции</label>
+                    </div>
+                    <div class="subscription__row flex  align_items_center">
+                        <div>
+                            <input class="subscription__email" type="text" id="email" value="Ваш Email">
+                        </div>
+                            <p class="subscription__label-2"> Мы присылаем письма не чаще 1 раза в месяц</p>
+                    </div>
+                    <div>
+                        <input class="subscription__button" type="submit" value="ПОДПИСАТЬСЯ">
+                    </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
